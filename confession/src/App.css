@@ -1,0 +1,99 @@
+
+.menu-wrapper{
+    margin-top: 10px;
+    background-color: black;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    color: white;
+    box-shadow: -2px 15px 11px #1c1a1bd6;
+
+}
+.menu-wrapper ul {
+    display: flex;
+    list-style: none;
+ 
+    margin-bottom: 0px;
+}
+a {text-decoration: none !important; color:white;}
+.footer-wrapper{
+  padding: 10px;
+    background-color: black;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    color: white;
+    box-shadow: -2px 15px 11px #1c1a1bd6;
+}
+.menu-wrapper ul li {
+    cursor: pointer;
+    padding: 15px;
+    color:white;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 800;
+}
+.menu-wrapper ul li:hover{ text-decoration: underline;}
+
+/* container body */
+
+.confession-body{
+    margin-top: 0px;
+}
+
+.confession-card-wrappers{
+    /* height: 100vh; */
+    padding: 10px;
+    color:white;
+    background-color: #242424ba;
+}
+
+.cards-confss{
+    margin-top: 30px;
+    background: #6e6e6ecc;
+    backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 4px;
+    padding: 10px;
+}
+.cards-confss .title h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.conf-nmbr{
+    font-size: 12px;
+    font-style: italic;
+}
+.like-wrapper{
+    margin-top: 10px;
+}
+.like-wrapper svg{
+
+    cursor: pointer;
+}
+.conf-title-e h2{
+    font-weight: 800;
+    color: #c7c7c7;
+    font-size: 29px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+
+}
+.conf-title-e input {
+    width: 50%;
+    padding: 10px;
+
+    border-radius: 6px;
+    border:0px;
+    place-content: center;
+    margin-bottom: 20px;
+}
+.text-area  textarea {
+ padding: 10px;
+ border:0px;
+ font-family: cursived;
+ border-radius: 7px;
+    width: 100%;
+    margin-bottom: 20px;
+}
